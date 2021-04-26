@@ -1,223 +1,182 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="./assets/global.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel=" stylesheet" type="text/css" href="css/styles.css">
-    <link rel=" stylesheet" type="text/css" href="css/desktopStyles.css">
-    <script data-ad-client="ca-pub-4059014725113560" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="files/style.css">
     <title>Kodirian</title>
   </head>
   <body>
-    <noscript>
-      Ative seu javascript ou atualize
-    </noscript>
-    <div id="app" >
-      <div class="grid">
-      <header>
-        <div class="navbar" id="navbar">
-          <div class="icon-mobile">
-            <a href="#"><i class="fal fa-bars"></i></a>
-          </div>
-          <div class="navbar-mobile">
-            <nav>
-              <a href="#" class="logo"> <img src="" alt="logo" width="30px"> </a>
-              <a href="#">Início</a>
-              <a href="#">Produtos</a>
-              <a href="#">Contatos</a>
-            </nav>
-            <div class="btn btn-social-media">
-              <div>
-                  <a href="#"><i class="fab fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="navbar-desktop">
-            <div>
-              <a href="#"> <i class="fas fa-rocket"></i> </a>
-            </div>
-            <nav>
-              <a href="#">Início</a>
-              <a href="#">Produtos</a>
-              <a href="#">Contatos</a>
-            </nav>
+
+    <header> 
+      <span>
+        <img src="data/banner/banner2.jpg" class="banner" alt="Responsive image">
+      </span>
+      
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark gradient">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Kodirian</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#price">Planos e preços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#ask">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://developers.redhat.com/ebooks">Developer eBooks</a>
+              </li>
+            </ul>
           </div>
         </div>
+      </nav>
+    </header>
 
-        <div id="banner" class="banner-container">
-          <div class="hero-effect">
-            <div class="content-hero container">
-              <div>
-                <h1>K<span>o</span>di<span>r</span>ian</h1>
-              </div>
-              <div>
-                <p>
-                  Nós somos uma startup, temos
-                  como nosso objetivo entregar software com qualidade e
-                  velocidade.
-                </p>
-              </div>
-            </div>
-          <div class="btn start-button">
-            <a href="#">Começar</a>
-            <div class="down-arrow">
-              <i class="fal fa-angle-double-down"></i>
-            </div>
+    <section id="about">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col p-5 text-dark h5">
+            <h3>Kodirian</h3>
+            <p>
+              Kodirian é uma empresa de soluções de software para pequenas e médias empresas que precisam de uma resposta rápida aos seus problemas financeiros, administrativos, logísticos que podem ser resolvidos com tecnologias de automação e software. Além de soluções para empresas, a Kodirian também fornece soluções para bloggers, identidade visual, identidade de marca, administração de redes sociais e marketing digital para pessoas físicas e jurídicas.
+            </p>
+  
           </div>
+          <div class="col">
+            <img src="data/logos/lg3.svg" alt="img" class="rocket">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <span>
+      <div class="container mt-5 mb-5 red">
+        <hr>
+      </div>
+    </span>
+
+    <section id="price">
+      <div class="container">
+        <div class="row">
+          <div class="col p-5">
+            <h3>Adaptado</h3>
+            <h5>Elabore projetos de sua maneira.</h5>
+            <p>
+              Fazemos a criação e/ou customização do seu jeito para você ou para seu negócio. Customização de aplicações em wordpress, php, laravel e outras plataformas, Criação de API para apps mobile, sites e sistemas, criação e manutenção de sistema para empresas
+            </p>
+          </div>
+          <div class="col p-5">
+            <h3>Prático</h3>
+            <h5>Funciona em qualquer lugar</h5>
+            <p>
+              Trabalhe em qualquer lugar, crie e compartilhe o seu conteúdo com seus seguidores em sites, blogs ou deixe que nós façamos a automação dos seus posts em diversas plataformas.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col p-5">
+            <h3>Orgânico</h3>
+            <h5>Seu crescimento é o nosso sucesso.</h5>
+            <p>
+              Promova o crescimento orgânico da sua empresa ou site. A Kodirian fornece uma gama de opções e soluções para fazer o seu negócio crescer, desde, marketing aos sistemas de software ou automação que sua empresa necessita. 
+            </p>
             
           </div>
-          <div class="image-hero">
-              <img src="./assets/image/image-main.svg" alt="Kodirian">
-            </div>
-        </div>
-      </header>
-      <main>
-        <div id="main" class="jumbotron">
-          <div class="flex-1-main">
-            <div>
-              <div class="adjust">
-                <section class="container-rocket-information" id="information">
-                  <div class="row-styles-content "></div>
-                    <div>
-                      <h1>Confira nosso planos serviços e produtos</h1>
-                    </div>
-                  </div>
-                  <p  id="letter">
-                    Além de sites, blogs, customizações em wordpress, construção
-                    de APIs e gerenciamento de <span>infraestrutura</span> da sua
-                    aplicação.
-                  </p>
-                  <div class="down-arrow-bouce" id="setDownDesktopNavegation">
-                    <a href=""><i class="far fa-arrow-down"></i></a>
-                  </div>
-                </div>
-              </section>
-            <div class="img-content">
-              <img src="assets/image/undraw_Outer_space_drqu.svg">
-            </div>
-          </div>
-
-        </div>
-
-        <div id="cards">
-          <div class="container-card-grid">
-            <div></div>
-            <div class="grids">
-              <div class="content-card">
-                <div class="container-card" id="c1">
-                  <div class="card" id="card">
-                    <div>
-                      <strong>Kodirian</strong>
-                      <span>01</span>
-                    </div>
-                    <header>
-                      <h3>Prático</h3>
-                      <h4>Funciona em qualquer lugar .</h4>
-                      <p>Trabalhe em qualquer lugar e crie conteúdo para seus site ou blog.</p></header>
-                    </header>
-                  </div>
-                </div>
-                <div class="container-card" id="c2">
-                    <div class="card" id="card">
-                      <div>
-                        <strong>Kodirian</strong>
-                        <span>02</span>
-                      </div>
-                      <header>
-                        <h3>Adaptado</h3>
-                        <h4>Elabore projetos de sua maneira.</h4>
-                        <p>Fazemos a customização do seu jeito para você ou para seu negócio.</p></header>
-                      </header>
-                    </div>
-                  </div>
-                 <div class="container-card" id="c3">
-                    <div class="card" id="card">
-                      <div>
-                        <strong>Kodirian</strong>
-                        <span>03</span>
-                      </div>
-                    <header>
-                      <h3>Orgânico</h3>
-                      <h4>Seu crescimento é o nosso sucesso.</h4>
-                      <p> Promova o crescimento orgânico da sua empresa ou site.</p></header>
-                    </header>
-                  </div>
-                </div>
-                <div class="container-card" id="c4">
-                  <div class="card" id="card">
-                    <div>
-                      <strong>Kodirian</strong>
-                      <span>04</span>
-                    </div>
-                    <header>
-                      <h3>Moderno</h3>
-                        <h4>Usamos tecnologias modernas.</h4>
-                        <p> Criação de Websites com design moderno, prático e personalizado atendendo às necessidades de sua empresa..</p></header>
-                    </header>
-                  </div>
-                </div>
-                <div class="container-card" id="c5">
-                  <div class="card" id="card">
-                    <div>
-                      <strong>Kodirian</strong>
-                      <span>05</span>
-                    </div>
-                    <header>
-                      <h3>Moderno</h3>
-                        <h4>Usamos tecnologias modernas.</h4>
-                        <p> Criação de Websites com design moderno, prático e personalizado atendendo às necessidades de sua empresa.</p></header>
-                    </header>
-                  </div>
-                </div>
-                <div class="container-card" id="c6">
-                <div class="card" id="card">
-                  <div>
-                    <strong>Kodirian</strong>
-                    <span>06</span>
-                  </div>
-                  <header>
-                    <h3>Inovador</h3>
-                      <h4>Utilizando sempre das melhores ferramentas.</h4>
-                      <p>Criamos e desenvolvemos sempre com a melhor qualidade para conseguir atingi resultados e produtos únicos.</p></header>
-                  </header>
-                </div>
-              </div>
-          </div>
+          <div class="col p-5">
+            <h3>Moderno</h3>
+            <h5>Usamos tecnologias modernas.</h5>
+            <p>
+              Criação de Aplicações e Sites com design moderno, usando tecnologias mais modernas e seguras, tornando-o mais prático, personalizado e atendendo às necessidades do seu negócio, independente do tamanho do projeto a dedicação para fazê-lo será a mesma.
+            </p>
+            
           </div>
         </div>
-      </main>
-      <footer>
-          <div id="footer" class="footer">
-            <div class="grid-container flex-container">
-              <div class="links-grid-component">
-                <div id="logo-footer">
-                  <a href=""><i class="fas fa-rocket" class="logo"></i></a>
-
-                </div>
-                <br>
-                <div>
-                  <nav class="links-support">
-                    <a href="#">Direitos autorais</a>
-                    <a href="#">Termos de uso</a>
-                    <a href="#">Políticas de privacidade</a>
-                  </br>
-                    <a href="">- Site em beta -</a>
-                  </nav>
-                </div><br><br>
-              </div>
-              <div class="links-social-media-icons">
-                <ul>
-                  <li><a href="https://www.facebook.com/kodisoftware"><i class="fab fa-facebook"></i></a></li>
-                  <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                  <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                  <li><a href="https://kodirian.github.io/"><i class="fab fa-github"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
       </div>
+    </section>
+
+    <section id="contato">
+      <div class="container-fluid gradient text-light mb-5 mt-5">
+        <div class="container p-5 text-center">
+          <h3>Confira nosso planos de serviços e produtos</h3>
+          <p>
+              Além de sites, blogs, customizações em wordpress, construção de APIs e gerenciamento de infraestrutura da sua aplicação, a Kodirian Software também fornece soluções para mídias digitais e administração de sistemas existentes.
+          </p>
+          <span>
+            <a href="#contato">
+              <button class="btn btn-light m-2">
+                <h4>Entre em contato</h4>
+              </button>
+            </a>
+            
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row p-5">
+          <div class="col p-5 text-dark h5">
+            <h3>Inovador</h3>
+            <h5>Utilizando sempre as melhores ferramentas.</h5>
+            <p>
+              Criamos e desenvolvemos sempre com a melhor qualidade para conseguir atingir resultados e produtos únicos com mais performance e custam menos para manter. a Kodirian software sempre está interessada em manter seus clientes satisfeitos e seus sistema funcionando 24/7 com uptime de 99%.
+            </p> 
+  
+          </div>
+          <div class="col">
+            <img src="data/logos/lg5.svg" alt="img" class="rocket">
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <span>
+      <div class="container mb-5 red">
+        <hr>
+      </div>
+    </span>
+
+    <section id="ask">
+      <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="data/logos/lg4.svg" alt="contato" class="rocket m-4 p-4">
+            </div>
+            <div class="col">
+              <div class="container text-center">
+                  <h3>Entre em contato conosco:</h3>
+              </div>
+              <div class="container">
+                  
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-center text-light">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright:
+        <a class="text-light" href="kodirian.github.io">Kodirian Software</a>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+   
   </body>
 </html>
