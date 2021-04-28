@@ -2,17 +2,8 @@
     width: 100%;
 }
 
-.rocket {
-    max-width: 70%;
-    margin: auto;
-}
-
-.red {
-    border: 1px solid red;
-}
-
 .gradient {
-    background-image: linear-gradient(to bottom right, rgb(42, 42, 42), rgb(82, 82, 82));
+    background-color: rgb(77, 77, 77);
     /* background-color: rgb(200, 1, 1); */
 }
 
