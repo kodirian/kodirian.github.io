@@ -1,6 +1,7 @@
-# kodirian-oficial-web-site by Marcos
+![KODIRIAN](https://user-images.githubusercontent.com/36008397/128429162-afe914f2-de8d-449e-a2a6-0d4224f389ff.png)
 
-Nós somos uma startup de aplicações para web, temos como nosso objetivo entregar software com qualidade
-e velocidade com custo reduzido para tornar seu negócio mais visível no mercado e lucrativo.
+# kodirian software
 
-![kodirian(1)](https://user-images.githubusercontent.com/36008397/98289818-8659a500-1f87-11eb-8272-b1049ffef060.png)
+## Sobre nós 
+    Kodirian é uma empresa de soluções de software para pequenas e médias empresas que precisam de uma resposta rápida aos seus problemas financeiros, administrativos, logísticos que podem ser resolvidos com tecnologias de automação e software. Além de soluções para empresas, a Kodirian também fornece soluções para bloggers, identidade visual, identidade de marca, administração de redes sociais e marketing digital para pessoas físicas e jurídicas. 
+    
