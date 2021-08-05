@@ -3,5 +3,5 @@
 # kodirian software
 
 ## Sobre nós 
-    Kodirian é uma empresa de soluções de software para pequenas e médias empresas que precisam de uma resposta rápida aos seus problemas financeiros, administrativos, logísticos que podem ser resolvidos com tecnologias de automação e software. Além de soluções para empresas, a Kodirian também fornece soluções para bloggers, identidade visual, identidade de marca, administração de redes sociais e marketing digital para pessoas físicas e jurídicas. 
+   Kodirian é uma empresa de soluções de software para pequenas e médias empresas que precisam de uma resposta rápida aos seus problemas financeiros, administrativos, logísticos que podem ser resolvidos com tecnologias de automação e software. Além de soluções para empresas, a Kodirian também fornece soluções para bloggers, identidade visual, identidade de marca, administração de redes sociais e marketing digital para pessoas físicas e jurídicas. 
     
